@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wether Journal Appp</title>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Load Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="main__header">
+      <h1>Weather Journal App</h1>
+    </header>
+      <form class="app_form" action="" method="">
+        <div class="item">
+          <label for="zip">Enter Zip Code Here</label>
+          <input type="text" id="zip"  name="" placeholder="Enter Zip Code Here..." value="">
+        </div>
+        <div class="item">
+          <label for="feelings">How is Your Feeling Today?</label>
+          <textarea name="Your Feelings" placeholder="Enter Your Feeling Here..." id="feelings" rows="9" cols="50" class="textarea"></textarea>
+        </div>
+        <div class="item">
+          <button type="submit" name="button" id="generate">Submit</button>
+        </div>
+        <div id="entryHolder" class="item">
+          <div id="date">Date: </div>
+          <div id="temp">Temprature: </div>
+          <div id="content">Feeling: </div>
+        </div>
+      </form>
+      <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>
